@@ -12,7 +12,7 @@ function Pricing() {
           <ul>
             <li>✔ Architectural Design File</li>
           </ul>
-          <a href="https://t.me/@Deisgn_hub" className="button">Choose Basic</a>
+          <a href="https://t.me/Deisgn_hub" className="button">Choose Basic</a>
         </div>
         <div className="plan">
           <h3>Standard</h3>
@@ -21,7 +21,7 @@ function Pricing() {
             <li>✔ Architectural Design File</li>
             <li>✔ Structural Design File</li>
           </ul>
-          <a href="https://t.me/@Deisgn_hub" className="button">Choose Standard</a>
+          <a href="https://t.me/Deisgn_hub" className="button">Choose Standard</a>
         </div>
         <div className="plan">
           <h3>Premium</h3>
@@ -32,7 +32,7 @@ function Pricing() {
             <li>✔ Sanitary Layout File</li>
             <li>✔ Electrical Layout File</li>
           </ul>
-          <a href="https://t.me/@Deisgn_hub" className="button">Choose Premium</a>
+          <a href="https://t.me/Deisgn_hub" className="button">Choose Premium</a>
         </div>
       </div>
     </div>
