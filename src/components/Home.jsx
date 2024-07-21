@@ -6,28 +6,28 @@ const designs = [
     images: ["/image/1.png", "/image/2.png", "/image/3.png"],
     title: "G+2 Luxury building",
     size: "200 sq.m",
-    link: "https://t.me/@Deisgn_hub",
+    link: "https://t.me/Deisgn_hub",
     price: "Contact us for detail..."
   },
   {
     images: ["/image/4.jpg", "/image/5.jpg", "/image/6.jpg"],
     title: "Interior design",
     size: "Design: simple style",
-    link: "https://t.me/@Deisgn_hub",
+    link: "https://t.me/Deisgn_hub",
     price: "Contact us for detail..."
   },
   {
     images: ["/image/7.jpg", "/image/8.jpg"],
     title: "G+0 Modern villa",
     size: "200 sq.m",
-    link: "https://t.me/@Deisgn_hub",
+    link: "https://t.me/Deisgn_hub",
     price: "Contact us for detail..."
   },
   {
     images: ["/image/9.jpg", "/image/10.jpg", "/image/11.jpg"],
     title: "G+2 Residential building",
     size: "200 sq.m",
-    link: "https://t.me/@Deisgn_hub",
+    link: "https://t.me/Deisgn_hub",
     price: "Contact us for detail..."
   }
 ];
