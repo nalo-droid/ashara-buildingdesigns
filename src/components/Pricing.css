@@ -10,7 +10,7 @@ body {
 }
 
 h2 {
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
@@ -30,8 +30,10 @@ h2 {
 }
 
 .plan h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 10px 0;
+  color: #38B2AC;
+
 }
 
 .plan p {

@@ -1,38 +1,41 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../LanguageContext';
 import './Pricing.css';
 
 function Pricing() {
+  const { texts } = useContext(LanguageContext);
+
   return (
     <div className="pricing">
-      <h2>Our Pricing Plans</h2>
+      <h2>{texts.pricingPlans}</h2>
       <div className="plans">
         <div className="plan">
-          <h3>Basic</h3>
-          <p>Includes only the architectural design file.</p>
+          <h3>{texts.basicPlan}</h3>
+          <p>{texts.basicPlanDescription}</p>
           <ul>
-            <li>✔ Architectural Design File</li>
+            <li>{texts.architecturalDesignFile}</li>
           </ul>
-          <a href="https://t.me/Deisgn_hub" className="button">Choose Basic</a>
+          <a href="https://t.me/Deisgn_hub" className="button">{texts.chooseBasic}</a>
         </div>
         <div className="plan">
-          <h3>Standard</h3>
-          <p>Includes both architectural and structural design files.</p>
+          <h3>{texts.standardPlan}</h3>
+          <p>{texts.standardPlanDescription}</p>
           <ul>
-            <li>✔ Architectural Design File</li>
-            <li>✔ Structural Design File</li>
+            <li>{texts.architecturalDesignFile}</li>
+            <li>{texts.structuralDesignFile}</li>
           </ul>
-          <a href="https://t.me/Deisgn_hub" className="button">Choose Standard</a>
+          <a href="https://t.me/Deisgn_hub" className="button">{texts.chooseStandard}</a>
         </div>
         <div className="plan">
-          <h3>Premium</h3>
-          <p>Provides a comprehensive set of design files tailored to your specific land footprint.</p>
+          <h3>{texts.premiumPlan}</h3>
+          <p>{texts.premiumPlanDescription}</p>
           <ul>
-            <li>✔ Architectural Design File</li>
-            <li>✔ Structural Design File</li>
-            <li>✔ Sanitary Layout File</li>
-            <li>✔ Electrical Layout File</li>
+            <li>{texts.architecturalDesignFile}</li>
+            <li>{texts.structuralDesignFile}</li>
+            <li>{texts.sanitaryLayoutFile}</li>
+            <li>{texts.electricalLayoutFile}</li>
           </ul>
-          <a href="https://t.me/Deisgn_hub" className="button">Choose Premium</a>
+          <a href="https://t.me/Deisgn_hub" className="button">{texts.choosePremium}</a>
         </div>
       </div>
     </div>

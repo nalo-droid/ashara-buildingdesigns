@@ -1,0 +1,24 @@
+{
+    "brandName": "Ashara",
+    "buildingDesigns": "Building Designs",
+    "contactUs": "Contact us for detail...",
+    "order": "Order",
+    "allRightsReserved": "All rights reserved.",
+    "pricingPlans": "Our Pricing Plans",
+    "basicPlan": "Basic",
+    "basicPlanDescription": "Includes only the architectural design file.",
+    "chooseBasic": "Choose Basic",
+    "standardPlan": "Standard",
+    "standardPlanDescription": "Includes both architectural and structural design files.",
+    "chooseStandard": "Choose Standard",
+    "premiumPlan": "Premium",
+    "premiumPlanDescription": "Provides a comprehensive set of design files tailored to your specific land footprint.",
+    "choosePremium": "Choose Premium",
+    "architecturalDesignFile": "✔ Architectural Design File",
+    "structuralDesignFile": "✔ Structural Design File",
+    "sanitaryLayoutFile": "✔ Sanitary Layout File",
+    "electricalLayoutFile": "✔ Electrical Layout File",
+    "home": "Home",
+    "pricing": "Pricing"
+  }
+  

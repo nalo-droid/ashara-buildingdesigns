@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { IoFingerPrint } from 'react-icons/io5'; // Import the icon
+import { LanguageContext } from '../LanguageContext';
 import './Home.css';
 
 const designs = [
@@ -35,6 +36,7 @@ const designs = [
 
 function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(designs.map(() => 0));
+  const { texts } = useContext(LanguageContext);
 
   const handlePreviousImage = (index) => {
     setCurrentImageIndex(prevState => prevState.map((imageIndex, i) => i === index ? (imageIndex === 0 ? designs[index].images.length - 1 : imageIndex - 1) : imageIndex));
@@ -49,9 +51,9 @@ function Home() {
       <header>
         <h1>
           <IoFingerPrint size={32} style={{ marginRight: '10px' }} /> {/* Add icon here */}
-          አሻራ
+          {texts.brandName}
         </h1>
-        <h1>Building Designs</h1>
+        <h1>{texts.buildingDesigns}</h1>
       </header>
       <main>
         <section className="designs">
@@ -64,14 +66,14 @@ function Home() {
               </div>
               <h2>{design.title}</h2>
               <p>{design.size}</p>
-              <p>{design.price}</p>
-              <a href={design.link} className="order-button">Order</a>
+              <p>{texts.contactUs}</p>
+              <a href={design.link} className="order-button">{texts.order}</a>
             </div>
           ))}
         </section>
       </main>
       <footer>
-        <p>&copy; 2024 Ashara Building Designs. All rights reserved.</p>
+        <p>&copy; 2024 Ashara Building Designs. {texts.allRightsReserved}</p>
       </footer>
     </div>
   );
