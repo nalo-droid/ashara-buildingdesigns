@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { IoFingerPrint } from 'react-icons/io5'; // Import the icon
 import './Home.css';
 
 const designs = [
@@ -46,7 +47,10 @@ function Home() {
   return (
     <div className="home-container">
       <header>
-        <h1>አሻራ</h1>
+        <h1>
+          <IoFingerPrint size={32} style={{ marginRight: '10px' }} /> {/* Add icon here */}
+          አሻራ
+        </h1>
         <h1>Building Designs</h1>
       </header>
       <main>
